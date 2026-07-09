@@ -1,3 +1,4 @@
+---
 name: audit-repo-docs
 description: Audit repository documentation against 85+ best practices from claude-code-ultimate-guide
 ---
