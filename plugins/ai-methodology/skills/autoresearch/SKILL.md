@@ -1,3 +1,4 @@
+---
 name: autoresearch
 description: Autonomous improvement loop: scan codebase metrics, scaffold experiment files, run agent-driven iterations until metric improves
 argument-hint: "[--scaffold <loop-name>] [--run <loop-name>] [--status]"

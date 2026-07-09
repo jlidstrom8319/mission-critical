@@ -1,3 +1,4 @@
+---
 name: eval-hooks
 description: "Audit Claude Code hooks defined in settings.json files for validity, performance safety, and correctness. Resolves each command against the filesystem, checks exit-code strategy for blocking hooks, flags missing timeouts, and reviews interactive vs async patterns. Use when setting up hooks for the first time, debugging a hook that never fires or hangs the agent, or doing a periodic hooks hygiene pass."
 allowed-tools: Read Glob Bash Edit

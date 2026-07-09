@@ -1,3 +1,4 @@
+---
 name: update-releases
 description: "Sync Claude Code releases from GitHub CHANGELOG to guide YAML + landing TypeScript"
 argument-hint: "[--since <version>] [--dry-run]"
