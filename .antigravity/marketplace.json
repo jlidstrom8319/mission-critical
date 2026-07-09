@@ -830,26 +830,6 @@
       "source": "./plugins/antigravity-bundle-ddd-evented-architecture"
     },
     {
-      "name": "antigravity-bundle-automation-builder",
-      "version": "12.10.0",
-      "description": "Install the \"Automation Builder\" editorial skill bundle for Claude Code.",
-      "author": {
-        "name": "sickn33 and contributors",
-        "url": "https://github.com/sickn33/antigravity-awesome-skills"
-      },
-      "homepage": "https://github.com/sickn33/antigravity-awesome-skills",
-      "repository": "https://github.com/sickn33/antigravity-awesome-skills",
-      "license": "MIT",
-      "keywords": [
-        "claude-code",
-        "skills",
-        "bundle",
-        "automation-builder",
-        "marketplace"
-      ],
-      "source": "./plugins/antigravity-bundle-automation-builder"
-    },
-    {
       "name": "antigravity-bundle-revops-crm-automation",
       "version": "12.10.0",
       "description": "Install the \"RevOps & CRM Automation\" editorial skill bundle for Claude Code.",
