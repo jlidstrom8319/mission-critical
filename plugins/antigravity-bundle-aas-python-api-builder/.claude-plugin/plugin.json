@@ -1,0 +1,10 @@
+{
+  "name": "antigravity-bundle-aas-python-api-builder",
+  "version": "12.10.0",
+  "description": "Editorial skill bundle for Claude Code from Antigravity Awesome Skills.",
+  "author": {
+    "name": "sickn33 and contributors",
+    "url": "https://github.com/sickn33/antigravity-awesome-skills"
+  },
+  "license": "MIT"
+}
