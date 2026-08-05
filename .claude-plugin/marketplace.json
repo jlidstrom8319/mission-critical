@@ -1,0 +1,75 @@
+{
+  "owner": {
+    "name": "Florian Bruniaux"
+  },
+  "metadata": {
+    "description": "Production-ready Claude Code plugins from the Ultimate Guide",
+    "version": "2.1.0"
+  },
+  "plugins": [
+    {
+      "id": "security-suite",
+      "name": "security-suite",
+      "description": "OWASP auditing, cyber-defense pipeline, 13 protective hooks",
+      "path": "./plugins/security-suite/",
+      "templates": 29,
+      "version": "1.0.0"
+    },
+    {
+      "id": "devops-pipeline",
+      "name": "devops-pipeline",
+      "description": "CI/CD, git worktrees, deploy automation, GitHub Actions",
+      "path": "./plugins/devops-pipeline/",
+      "templates": 50,
+      "version": "1.0.0"
+    },
+    {
+      "id": "release-automation",
+      "name": "release-automation",
+      "description": "Changelog, release notes (3 formats), social content",
+      "path": "./plugins/release-automation/",
+      "templates": 20,
+      "version": "1.0.0"
+    },
+    {
+      "id": "code-quality",
+      "name": "code-quality",
+      "description": "SOLID refactoring, TDD, GoF patterns, 6 review agents",
+      "path": "./plugins/code-quality/",
+      "templates": 30,
+      "version": "1.0.0"
+    },
+    {
+      "id": "pr-workflow",
+      "name": "pr-workflow",
+      "description": "Planning gates, PR/issue triage, handoffs",
+      "path": "./plugins/pr-workflow/",
+      "templates": 23,
+      "version": "1.0.0"
+    },
+    {
+      "id": "session-tools",
+      "name": "session-tools",
+      "description": "ccboard monitoring, voice refinement, 11 session hooks",
+      "path": "./plugins/session-tools/",
+      "templates": 40,
+      "version": "1.0.0"
+    },
+    {
+      "id": "ai-methodology",
+      "name": "ai-methodology",
+      "description": "Scaffolding, 6-stage talk pipeline, context-engineering",
+      "path": "./plugins/ai-methodology/",
+      "templates": 45,
+      "version": "1.0.0"
+    },
+    {
+      "id": "session-summary",
+      "name": "session-summary",
+      "description": "Session analytics dashboard, 15 configurable sections",
+      "path": "./plugins/session-summary/",
+      "templates": 1,
+      "version": "3.0.0"
+    }
+  ]
+}
