@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cadquery": {
+      "type": "stdio",
+      "command": "python3",
+      "args": ["tools/cad-mcp/server.py"],
+      "env": {
+        "CAD_OUTPUT_DIR": "cad-output"
+      }
+    }
+  }
+}
