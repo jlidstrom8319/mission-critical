@@ -1,0 +1,10 @@
+{
+  "name": "agyb-startup-founder",
+  "version": "12.10.0",
+  "description": "Install the skill bundle from Antigravity Awesome Skills.",
+  "author": {
+    "name": "sickn33 and contributors",
+    "url": "https://github.com/sickn33/antigravity-awesome-skills"
+  },
+  "license": "MIT"
+}
