@@ -1,68 +1,31 @@
 # mission-critical
+my ai
 
-A Customer API built with EnrichMCP and SQLAlchemy.
+## construction-skills (Claude Code plugin marketplace)
 
-## Overview
+Construction document skills for Claude Code: drawings, specs, schedules, submittals, bids, RFIs and subcontracts. The `construction` plugin gives Claude the working knowledge of a Project Engineer.
 
-This project provides an AI-friendly API for customer and order data using EnrichMCP, a framework for building Model Context Protocol (MCP) servers that expose data models and relationships.
+### Install
 
-## Features
-
-- **Customer Management**: Track customer accounts with email and status
-- **Order Management**: Store and manage customer orders with pricing and status
-- **Relationship Resolution**: Automatic relationship resolution between customers and orders
-- **AI-Ready**: Fully compatible with Claude and other AI agents via MCP
-
-## Setup
-
-### Prerequisites
-
-- Python 3.8+
-- pip
-
-### Installation
-
-```bash
-pip install -r requirements.txt
+```
+/plugin install construction --marketplace jlidstrom8319/mission-critical
 ```
 
-### Running the API
+Or in two steps:
 
-```bash
-python customer_api.py
+```
+/plugin marketplace add jlidstrom8319/mission-critical
+/plugin install construction@construction-skills
 ```
 
-The API will start and create a SQLite database (`customers.db`) for local development.
+### Skills
 
-## Data Models
-
-### Customer
-
-- `id` (int): Unique customer ID
-- `email` (str): Primary email address
-- `status` (str): Account status (active, suspended, churned)
-- `orders` (list[Order]): All orders placed by this customer
-- `display_name` (str): Formatted display name
-
-### Order
-
-- `id` (int): Order ID
-- `customer_id` (int): Customer ID
-- `total` (float): Order total in USD
-- `status` (str): Order status (pending, completed, cancelled)
-- `customer` (Customer): Customer who placed this order
-
-## Usage
-
-The API exposes customer and order data for AI agents via the MCP protocol. Agents can:
-
-- Retrieve customer information by ID
-- Access all orders for a customer
-- Filter orders by status
-- Create and update customer records
-
-## Architecture
-
-- **EnrichMCP**: Framework for building MCP servers from data models
-- **SQLAlchemy**: ORM for database operations
-- **SQLite**: Local database (easily swappable for PostgreSQL)
+| Skill | Use for |
+|---|---|
+| `construction-drawings` | Sheet sets, references, coordination reviews, takeoffs |
+| `construction-specs` | MasterFormat sections, Division 01, product and QA requirements |
+| `construction-schedules` | CPM quality checks, update comparisons, look-aheads, delay analysis |
+| `construction-submittals` | Submittal registers, pre-submission review, substitutions |
+| `construction-bids` | Bid packages, addenda, bid leveling, scope gaps |
+| `construction-rfis` | Drafting, logging and reviewing RFIs |
+| `construction-subcontracts` | Subcontract review, flow-down, exhibits |

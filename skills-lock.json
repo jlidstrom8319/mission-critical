@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "4d-v21": {
+      "source": "Ganbin/4d-development-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "1c8fb0d54cd33fa56f5d464b7cce053012924208dc14ca6b34c55a641ae2d029"
+    }
+  }
+}

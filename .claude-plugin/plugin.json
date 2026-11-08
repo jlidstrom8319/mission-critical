@@ -1,0 +1,11 @@
+{
+  "name": "construction",
+  "version": "0.1.0",
+  "description": "Skills that give Claude Code the working knowledge of a Project Engineer for construction documents.",
+  "author": {
+    "name": "jlidstrom8319",
+    "url": "https://github.com/jlidstrom8319"
+  },
+  "repository": "https://github.com/jlidstrom8319/mission-critical",
+  "keywords": ["construction", "project-engineer", "rfi", "submittals", "specifications", "drawings", "bids", "subcontracts", "schedules"]
+}
