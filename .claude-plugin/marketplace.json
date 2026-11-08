@@ -1,0 +1,17 @@
+{
+  "name": "construction-skills",
+  "owner": {
+    "name": "jlidstrom8319",
+    "url": "https://github.com/jlidstrom8319"
+  },
+  "metadata": {
+    "description": "Construction document skills for Claude Code: drawings, specs, schedules, submittals, bids, RFIs and subcontracts."
+  },
+  "plugins": [
+    {
+      "name": "construction",
+      "source": "./",
+      "description": "Skills that give Claude Code the working knowledge of a Project Engineer for construction documents."
+    }
+  ]
+}
